@@ -1,0 +1,74 @@
+{
+  "global": {
+    "appName": "Eurocracies",
+    "tagline": "Understand and explore European states' politics.",
+    "wip": "This page is under construction."
+  },
+  "header": {
+    "home": "Home",
+    "author": "By Nwel.dev",
+    "theme": {
+      "dark": "dark mode",
+      "light": "light mode"
+    }
+  },
+  "home": {
+    "links": {
+      "map": {
+        "title": "Map",
+        "description": "Find information on each and every countries."
+      },
+      "docs": {
+        "title": "Docs",
+        "description": "Documentation of specific topics."
+      }
+    }
+  },
+  "countries": {
+    "menu": {
+      "loading": "loading",
+      "farRightLeader": "led by a far-right party",
+      "catchAllLeader": "led by a catch-all party",
+      "libConsLeader": "led by a liberal-conservative party",
+      "governments": "Governments",
+      "europeanUnion": "European Union",
+      "borders": "borders"
+    },
+    "details" : {
+      "government": "Current government",
+      "lastElection": "Last parlementary elections",
+      "results": "Results",
+      "seats": "seats",
+      "seat": "seat",
+      "byFamily": "Summary by ideological groups",
+      "negligible": "nonexistent or negligible",
+      "noData": "missing data (collection is in-progress)",
+      "coalition": "Coalition",
+      "ideology": {
+        "family": {
+          "FAR_RIGHT": "far-right",
+          "RADICAL_RIGHT": "right or radical right",
+          "CONVENTIONAL_RIGHT": "right",
+          "CATCH_ALL": "catch-all",
+          "CENTRE": "centre",
+          "THIRD_WAY": "third-way",
+          "CONVENTIONAL_LEFT": "left",
+          "RADICAL_LEFT": "left or radical left",
+          "FAR_LEFT": "far-left"
+        },
+        "group": {
+          "farLeft": "far-left",
+          "left": "left",
+          "thirdWay": "third-way",
+          "centre": "centre",
+          "right": "right",
+          "farRight": "far-right",
+          "unclassified": "others (unclassifed)"
+        }
+      }
+    }
+  },
+  "docs": {
+    "title": "Documentation"
+  }
+}

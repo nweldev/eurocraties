@@ -1,0 +1,74 @@
+{
+  "global": {
+    "appName": "Eurocraties",
+    "tagline": "Comprendre et explorer la politique des États européens.",
+    "wip": "Page en cours de construction."
+  },
+  "header": {
+    "home": "Accueil",
+    "author": "Une app Nwel.dev",
+    "theme": {
+      "dark": "mode sombre",
+      "light": "mode clair"
+    }
+  },
+  "home": {
+    "links": {
+      "map": {
+        "title": "Carte",
+        "description": "Explorer la politique pays par pays."
+      },
+      "docs": {
+        "title": "Docs",
+        "description": "Documentations thématiques additionnelles."
+      }
+    }
+  },
+  "countries": {
+    "menu": {
+      "loading": "loading",
+      "farRightLeader": "dirigés par un parti d'extrême-droite",
+      "catchAllLeader": "dirigés par un parti attrape-tout",
+      "libConsLeader": "dirigés par parti liberal-conservateur",
+      "governments": "Gouvernements",
+      "europeanUnion": "Union Européenne",
+      "borders": "frontières"
+    },
+    "details" : {
+      "government": "Gouvernement actuel",
+      "lastElection": "Dernières élections parlementaires",
+      "results": "Résultats",
+      "seats": "sièges",
+      "seat": "siège",
+      "byFamily": "Synthèse par groupes idéologiques",
+      "negligible": "inexistant(e) ou négligeable",
+      "noData": "donnée manquante (collecte en cours)",
+      "coalition": "Coalition ",
+      "ideology": {
+        "family": {
+          "FAR_RIGHT": "extrême-droite",
+          "RADICAL_RIGHT": "droite ou droite radicale",
+          "CONVENTIONAL_RIGHT": "droite",
+          "CATCH_ALL": "attrape-tout",
+          "CENTRE": "centre",
+          "THIRD_WAY": "troisième-voie",
+          "CONVENTIONAL_LEFT": "gauche",
+          "RADICAL_LEFT": "gauche ou gauche radicale",
+          "FAR_LEFT": "extrême-gauche"
+        },
+        "group": {
+          "farLeft": "extrême-gauche",
+          "left": "gauche",
+          "thirdWay": "troisième-voie",
+          "centre": "centre",
+          "right": "droite",
+          "farRight": "extrême-droite",
+          "unclassified": "autres (non répertoriés)"
+        }
+      }
+    }
+  },
+  "docs": {
+    "title": "Documentation"
+  }
+}

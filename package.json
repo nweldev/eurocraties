@@ -1,0 +1,45 @@
+{
+  "name": "eurocraties",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "npm run db-update",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db-update": "prisma generate",
+    "db-studio": "prisma studio",
+    "db-sync": "prisma db push",
+    "db-clear": "ts-node --esm prisma/clear.ts",
+    "db-seed": "ts-node --esm prisma/seed.ts",
+    "db-save": "source ./.env.local && pg_dump -a \"postgres://default:${POSTGRES_PASSWORD}@${POSTGRES_HOST}/${POSTGRES_DATABASE}\" > prisma/seed.sql"
+  },
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.4.0",
+    "@prisma/client": "^5.2.0",
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "classnames": "^2.3.2",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "flowbite": "^1.8.1",
+    "js-cookie": "^3.0.5",
+    "negotiator": "^0.6.3",
+    "next": "13.4.19",
+    "postcss": "8.4.29",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.3",
+    "@types/negotiator": "^0.6.1",
+    "prisma": "^5.2.0",
+    "sass": "^1.66.1",
+    "ts-node": "^10.9.1"
+  }
+}
